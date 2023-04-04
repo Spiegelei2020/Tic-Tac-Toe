@@ -17,7 +17,7 @@ for (var i = 0; i < 9; i++) {
   squares.push(square);
   board.appendChild(square);
 }
-
+ 
 function checkWin() {
   var winningCombos = [
     [0, 1, 2],
