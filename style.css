@@ -1,19 +1,19 @@
 #board {
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
-  height: 300px;
+  width: 600px;
+  height: 600px;
   margin: 0 auto;
   border: 3px solid black;
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 1px solid black;
   font-size: 4em;
   text-align: center;
-  line-height: 100px;
+  line-height: 200px;
   cursor: pointer;
   box-sizing: border-box;
 }
